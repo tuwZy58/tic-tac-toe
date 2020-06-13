@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
-
+import ReactDOM from 'react-dom';
+import './index.css';
+import * as serviceWorker from './serviceWorker';
 
 function Square(props) { 
   return (
@@ -146,4 +147,4 @@ class Game extends React.Component {
     return null;
   }
 
-  //export default Game;
+  export default Game;
